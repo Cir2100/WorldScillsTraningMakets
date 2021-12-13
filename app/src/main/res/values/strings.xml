@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WorldScillsTraningMakets</string>
+    <string name="title_activity_t1_profile">t1_profile_activity</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_forum">Forum</string>
+    <string name="title_settings">Settings</string>
+</resources>
