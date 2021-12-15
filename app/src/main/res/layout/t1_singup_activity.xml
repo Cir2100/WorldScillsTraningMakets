@@ -30,14 +30,14 @@
 
     <TextView
         android:id="@+id/hint_name"
-        style="@style/mTextViewHint"
+        style="@style/mTextViewHint_t1"
         android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/guideline2"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/name_input_layout"
-        style="@style/TextInput.SingIn"
+        style="@style/TextInput.SingIn_t1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hint_name"
         app:layout_constraintEnd_toEndOf="@id/guideline3">
@@ -49,14 +49,14 @@
 
     <TextView
         android:id="@+id/hint_email"
-        style="@style/mTextViewHint"
+        style="@style/mTextViewHint_t1"
         android:text="Email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name_input_layout"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/email_input_layout"
-        style="@style/TextInput.SingIn"
+        style="@style/TextInput.SingIn_t1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hint_email"
         app:layout_constraintEnd_toEndOf="@id/guideline3">
@@ -69,14 +69,14 @@
 
     <TextView
         android:id="@+id/hint_password"
-        style="@style/mTextViewHint"
+        style="@style/mTextViewHint_t1"
         android:text="Password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email_input_layout"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password_input_layout"
-        style="@style/TextInput.SingIn"
+        style="@style/TextInput.SingIn_t1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hint_password"
         app:layout_constraintEnd_toEndOf="@id/guideline3">
@@ -89,14 +89,14 @@
 
     <TextView
         android:id="@+id/hint_confirm_password"
-        style="@style/mTextViewHint"
+        style="@style/mTextViewHint_t1"
         android:text="Password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/password_input_layout"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/confirm_password_input_layout"
-        style="@style/TextInput.SingIn"
+        style="@style/TextInput.SingIn_t1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hint_confirm_password"
         app:layout_constraintEnd_toEndOf="@id/guideline3">
@@ -109,7 +109,7 @@
 
     <Button
         android:id="@+id/sing_in_button"
-        style="@style/mButton"
+        style="@style/mButton_t1"
         android:layout_marginBottom="10dp"
         android:text="Sing Up"
         app:layout_constraintBottom_toTopOf="@id/sing_up_button"
@@ -117,7 +117,7 @@
 
     <Button
         android:id="@+id/sing_up_button"
-        style="@style/mButton"
+        style="@style/mButton_t1"
         android:text="Cancel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
